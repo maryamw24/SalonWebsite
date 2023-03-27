@@ -1,0 +1,475 @@
+body {
+  background-color: rgb(245, 230, 237);
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 0x;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.img1 {
+  border-radius: 20px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding-left: 50px;
+}
+.items {
+  margin-left: 250px;
+  padding-top: 15px;
+  list-style: none;
+  display: flex;
+  padding-right: 50px;
+  flex-direction: row;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  color: rgb(184, 28, 80);
+  font-style: italic;
+  padding-top: 25px;
+}
+a.icon {
+  padding: 5px 15px;
+  color:  rgb(157, 35, 76);
+  display: flex;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 50px;
+  transition: 0.2s;
+  text-justify: center;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 10px;
+}
+a.icon:hover {
+  background-color: rgb(157, 35, 76);
+  color: rgb(240, 255, 243);
+}
+.menu1 {
+  display: none;
+  text-decoration: none;
+}
+.menu1 ul li a {
+  display: flex;
+  flex-direction: column;
+  background-color:  rgb(157, 35, 76);
+  color: #fff;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.items li:hover .menu1 {
+  display: flex;
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+}
+
+.items li:hover .menu1 ul {
+  display: block;
+}
+.menu1 ul li a:hover {
+  background-color: rgb(245, 203, 216);
+  color: rgb(157, 35, 76);
+}
+#active {
+  color: aliceblue;
+  background-color: rgb(157, 35, 76);
+}
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.why-us {
+  background-image: url(OIP__5_-removebg-preview.png);
+  color: rgb(143, 41, 75);
+  font-size: 55px;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+.text p {
+  text-align: justify;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 40px;
+  padding-top: 30px;
+  font-size: 25px;
+  text-indent: 2cm;
+  padding-right: 40px;
+  color: rgb(157, 35, 76); 
+}
+.copyright {
+  text-align: center;
+  color: rgb(239, 190, 190);
+  font-size: 20px;
+}
+.footer {
+  background-color: rgb(77, 24, 37);
+  border-radius: 20px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-along;
+  padding-left: 625px;
+  padding-bottom: 30px;
+}
+.contact {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 34px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(223, 174, 174);
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(login-img.png);
+}
+.form-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+}
+h2 {
+  font-size: 2em;
+  color: rgb(75, 30, 45);
+  text-align: center;
+}
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid rgb(62, 22, 36);
+}
+.inputbox label {
+  color: rgb(63, 22, 37);
+  font-size: 1em;
+}
+.inputbox input {
+  width: 100%;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 5px;
+  color: rgb(8, 0, 0);
+}
+.inputbox ion-icon {
+  position: absolute;
+  right: 8px;
+  color: rgb(47, 17, 27);
+  padding-right: 5px;
+  font-size: 1.2em;
+  top: 5px;
+}
+.forget {
+  display: flex;
+  flex-direction: row;
+  margin: -15px 0 15px;
+  font-size: 0.9em;
+  color: rgb(59, 22, 35);
+}
+.forget input {
+  position: relative;
+  border-radius: 20px;
+  background-color: rgb(255, 210, 219);
+  /* height: 45px; */
+  width: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-right: 0;
+  padding-right: 10px;
+}
+.forget label {
+  margin-top: 15px;
+  font-size: 0.9em;
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-top: 0;
+}
+.forget a {
+  margin-top: 5px;
+  font-size: .9em;
+  color: rgb(53, 18, 31);
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  margin-right: 10px;
+
+}
+.forget label a:hover {
+  text-decoration: underline;
+}
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+button a {
+  text-decoration: none;
+  color: rgb(58, 20, 33);
+}
+.signup p {
+  font-size: 1em;
+  color: rgb(53, 18, 30);
+  text-align: center;
+  margin: 25px 0 10px;
+}
+.signup p a {
+  font-size: 1em;
+  color: rgb(59, 20, 34);
+  text-decoration: none;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+.SkinService {
+  border-radius: 30px;
+  margin-top: 50px;
+  font-size: 30px;
+  background-color: rgb(131, 64, 80);
+  text-align: center;
+  color: rgb(239, 190, 190);
+  font-family: "Times New Roman", Times, serif;
+}
+.image {
+  margin-left: 20px;
+}
+.skin {
+  margin-top: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.name {
+  margin-left: 30px;
+  font-size: 25px;
+  color: brown;
+  font-weight: bolder;
+}
+.discription {
+  margin-top: 5px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.price {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.quote {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 250px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(93, 28, 55);
+}
+.appointment {
+  padding: 5px 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 50px;
+  background-color: palevioletred;
+  transition: 0.2s;
+  margin: 10px;
+  margin-left: 70px;
+}
+.appointment:hover {
+  color: rgb(198, 102, 134);
+  background-color: rgb(251, 246, 248);
+}
+.upperimage {
+  display: flex;
+}
+#img {
+  height: 500px;
+  width: 800px;
+}
+#container {
+  background-color: rgb(223, 141, 160);
+  height: 646px;
+  width: 900px;
+}
+.type {
+  font-size: 30px;
+  margin-top: 30px;
+  text-decoration: underline;
+  color: rgb(135, 22, 22);
+  font-weight: bolder;
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.Services {
+  margin: 50px;
+}
+.app {
+  padding: 5px 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 50px;
+  background-color: palevioletred;
+  transition: 0.2s;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+.app:hover {
+  color: rgb(198, 102, 134);
+  background-color: rgb(251, 246, 248);
+}
+.appointmentpage {
+  background-image: url(ap.jpg);
+  display: flex;
+  justify-content: space-around;
+}
+.app_page {
+  display: flex;
+}
+.apointmentbox {
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(240, 159, 186);
+  border: 2px solid #fff;
+  background: opacity(50%);
+  border-radius: 20px;
+  position: relative;
+  margin: 30px 0;
+  border-bottom: 2px solid rgb(62, 22, 36);
+}
+.apointmentbox label {
+  color: rgb(63, 22, 37);
+  font-size: 1em;
+}
+.apointmentbox input {
+  width: 100%;
+  height: 30px;
+  background: white;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 1em;
+  padding: 5px;
+  color: rgb(8, 0, 0);
+}
+.appbox {
+  margin-top: 20px;
+}
+.side {
+  text-align: center;
+  margin-right: 200px;
+  margin-top: 95px;
+  padding-bottom: -50px;
+  filter: blur(40%);
+}
+.topic {
+  font-weight: bold;
+  font-size: 30px;
+  color: #080808;
+}
+.line {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #050000;
+}
+button {
+  margin-top: 20px;
+}
+.fuck {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 350px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  filter: blur(30);
+}
+select {
+  position: relative;
+  border-radius: 20px;
+  height: 45px;
+  width: 150px;
+  background-color: rgb(255, 210, 219);
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+option {
+  height: 45px;
+  width: 150px;
+}
+input
+{
+  position: relative;
+  border-radius: 20px;
+  /* height: 45px;  */
+  width: 150px;
+  background-color: rgb(255, 210, 219);
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.details {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(107, 30, 46);
+}
+.event {
+  font-size: 20px;
+  color: rgb(82, 17, 30);
+  margin-left: 95px;
+  
+}
+.submit {
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: darkred;
+}
